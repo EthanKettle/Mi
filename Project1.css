@@ -1,0 +1,54 @@
+/*Basic*/
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: grey;
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    margin: 0px 20px;
+}
+
+div {
+    padding: 20px 70px;
+}
+
+/*Navigation*/
+.Top {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavBar {
+    width: 40%; 
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    align-items: center;
+    font-size: 1em;
+}
+
+a {
+    flex-wrap: nowrap;
+    padding: 0px 10px;  
+}
+
+.Square {
+    width: 250px;
+    height: 500px;
+    object-fit: cover;
+}
+.flexing {
+    display: flex;
+}
